@@ -4,7 +4,7 @@
 Plugin Name: Copter Copy Blocks
 Plugin URI: http://github.com/copterlabs/copter_copyblocks
 Description: Adds support for ad hoc shortcodes to create reusable copy blocks.
-Version: 0.1
+Version: 1.0
 Author: Copter Labs
 Author URI: http://www.copterlabs.com/
 License: MIT
