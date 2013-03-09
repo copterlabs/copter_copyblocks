@@ -1,0 +1,111 @@
+/*
+ * Styles required for the admin display of the coaching program plugin for 
+ * Precision Nutrition
+ *
+ * @author Jason Lengstorf <jason.lengstorf@copterlabs.com>
+ */
+
+/*
+ * TABS
+ *****************************************************************************/
+
+.copter-program-tabs {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0 -1px 0px;
+}
+
+.copter-program-tabs li {
+    float: left;
+    display: block;
+    margin: 0 6px 0 0;
+    padding: 1px 1px 0;
+}
+
+.copter-program-tabs li.active
+/*,.copter-program-tabs li:first-child*/
+{
+    border: 1px solid #dedede;
+    border-bottom: 0;
+    border-radius: 3px 3px 0 0;
+    background: #fdfdfd;
+    padding: 0;
+    
+}
+
+.copter-program-tabs li a {
+    display: block;
+    margin: 0;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.copter-program-tabs li.active a
+/*,.copter-program-tabs li:first-child a*/
+{
+    color: #000;
+}
+
+/*
+ * META BOX CONTAINER
+ *****************************************************************************/
+
+.copter-input-container {
+    margin: 0 0 10px;
+    padding: 8px 15px;
+    border: 1px solid #DFDFDF;
+    border-radius: 0 3px 3px;
+    background: #fdfdfd;
+}
+
+.copter-input-container h4 {
+    font-size: 1.25em;
+}
+
+/*
+ * TABLE
+ *****************************************************************************/
+
+.copter-inputs {
+    width: 100%;
+}
+
+.copter-inputs th {
+    width: 20%;
+    padding: 3px 0 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.copter-inputs th.label-textarea {
+    vertical-align: middle;
+}
+
+.copter-inputs label {
+    font-weight: normal;
+}
+
+.copter-inputs label:after {
+    content: ':';
+}
+
+.copter-inputs td {
+    width: 79%;
+    padding: 0 0 30px 1%;
+}
+
+/*
+ * INPUTS
+ *****************************************************************************/
+
+.input-text,.input-datetime {
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    margin: 1px;
+    padding: 3px;
+    width: 75%;
+}
+
+.input-datetime {
+    width: 30%;
+}
