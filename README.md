@@ -42,7 +42,7 @@ Contributors
 Copyright and license
 ---------------------
 
-Copyright (c) 2012 Jason Lengstorf
+Copyright (c) 2013 Copter Labs
 
 Licensed under the MIT License (the "License"); you may not use this work 
 except in compliance with the License. You may obtain a copy of the License in 
